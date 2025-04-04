@@ -16,7 +16,7 @@
     Datos de entrada:
         - valorHorasTrabajadas (cuánto se paga por hora).
         - horasTrabajadas (cantidad de horas trabajadas al día).
-        - diasTrabajados (cantidad de días trabajados al mes).
+        - total
 
     Datos de salida:
         - sueldoMensual (sueldo total del operario).
@@ -37,3 +37,21 @@
     Codificación:
 */
 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int valorHorasTrabajadas, horasTrabajadas, total; 
+
+    cout << " ¿ Cuanto tepaganporhora trabajada ? ";
+    cin >> valorHorasTrabajadas;
+
+    cout << " ¿ Cuantas horastrabajas ? ";
+cin >> horasTrabajadas; 
+
+    total =valorHorasTrabajadas* horasTrabajadas; 
+
+    cout << " Tu sueldo es odeberia ser de $ " << total << endl; 
+    return 0;
+}
