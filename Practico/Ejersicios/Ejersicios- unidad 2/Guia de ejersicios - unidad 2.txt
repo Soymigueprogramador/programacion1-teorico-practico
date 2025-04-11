@@ -1,0 +1,200 @@
+
+1
+Hacer un programa para ingresar por teclado un número y luego emitir por pantalla un cartel aclaratorio indicando si el mismo es positivo, negativo o cero.
+Importante: Verifique que el programa emita UN SOLO CARTEL.
+
+2
+Hacer un programa para ingresar por teclado dos números y luego informar por pantalla con un cartel aclaratorio si el primer número es múltiplo del segundo. 
+
+3
+Hacer un programa para ingresar por teclado un número y luego informar por pantalla con un cartel aclaratorio si el mismo es par o impar.
+
+4
+Hacer un programa para ingresar por teclado dos números y luego informar por pantalla la diferencia entre ambos. 
+Ejemplo A: Si se ingresan 3 y 8 se emite 5. Si se ingresan 8 y 3 se emite 5. 
+Ejemplo B: Si se ingresan -3 y 9 se emite 12. Si se ingresan -12 y -1 se emite 11.
+Ejemplo C: Si se ingresan -3 y -9 se emite 6. Si se ingresan -12 y -9 se emite 3.
+Importante: Verifique que el programa emite SIEMPRE UN VALOR POSITIVO porque la diferencia absoluta siempre es un valor positivo.
+
+5
+Un negocio de perfumería efectúa descuentos según el importe de la venta.
+Si el importe es menor a $100 aplicar un descuento del 5%
+Si el importe es entre $100 y hasta $500 aplicar un descuento del 10%
+Si el importe es mayor a $500 aplicar un descuento del 15%
+
+Hacer un programa donde se ingresa el importe original sin descuento y se informe por pantalla el importe con el descuento ya aplicado.
+Importante: Verifique que el programa emita UN SOLO CARTEL.
+
+6
+Hacer un programa para ingresar por teclado tres números y luego determinar e informar con una leyenda aclaratoria si los tres son iguales entre sí, 
+caso contrario no emitir nada.
+Tener en cuenta:  Si A es igual a B y B es igual a C, entonces A y C son iguales.
+
+7
+Hacer un programa para ingresar por teclado tres números e informar 
+con una leyenda aclaratoria si los tres son todos distintos entre sí, caso contrario no emitir nada. 
+Tener en cuenta: 
+Si A es distinto de B y B es distinto de C, eso no significa que A y C sean distintos. Ejemplo: A=8, B=6 y C=8.
+
+8
+Basado en los 2 ejercicios anteriores, hacer un programa para ingresar por teclado la longitud 
+de los tres lados de un triángulo y luego listar qué tipo de triángulo es: 
+- Equilátero: si los tres lados son iguales.
+- Isósceles: si dos de los tres lados son iguales.
+- Escaleno: si los tres lados son distintos entre sí.
+
+9
+Hacer un programa para ingresar tres números y listar el máximo de ellos.
+
+10
+Hacer un programa para ingresar cinco números y listar el máximo y el mínimo de ellos.
+
+11
+Hacer un programa para ingresar cinco números y listar cuantos de esos cinco números son positivos, 
+cuantos son negativos y cuantos son iguales a 0.
+
+12
+Hacer un programa para ingresar tres números diferentes y determinar e informar el número del medio.
+Sugerimos probar CADA UNA de las siguientes 6 combinaciones.
+N1=8, N2=6, N3=10. Valor del medio: 8. N1=8, N2=10, N3=6. Valor del medio: 8
+N1=6, N2=8, N3=10. Valor del medio: 8. N1=10, N2=8, N3=6. Valor del medio: 8
+N1=6, N2=10, N3=8. Valor del medio: 8. N1=10, N2=6, N3=8. Valor del medio: 8
+
+13
+Hacer un programa para ingresar tres números distintos y listarlos ordenados de menor a mayor. 
+Sugerimos probar CADA UNA de las siguientes 6 combinaciones.
+Si N1=8, N2=6, N3=10 ó  N1=8, N2=10, N3=6. Se muestra: 6, 8, 10.
+Si N1=6, N2=8, N3=10 ó  N1=10, N2=8, N3=6. Se muestra: 6, 8, 10.
+Si N1=6, N2=10, N3=8 ó  N1=10, N2=6, N3=8. Se muestra: 6, 8, 10.
+
+
+
+
+14
+Hacer un programa para ingresar por teclado la fecha de nacimiento de una persona, 
+ingresando día, mes y año como 3 datos individuales. 
+Luego ingresar la fecha actual ingresando día, mes y año como 3 datos individuales. 
+Calcular luego la edad en años de esa persona y listar por pantalla. 
+Ejemplo 1:  
+Si se ingresa como fecha de nacimiento: 3/12/2000 y la fecha actual es 26/2/2019 la 
+edad de esa persona es 18 ya que los 19 recién los cumple en diciembre. 
+Ejemplo 2:
+Si se ingresa como fecha de nacimiento: 3/1/2000 y la fecha actual es 26/2/2019 la edad de esa persona es 19. 
+Ejemplo 3:
+Si se ingresa como fecha de nacimiento: 28/2/2000 y la fecha actual es 26/2/2019 la edad de esa 
+persona es 18 ya que le faltan 2 días para cumplir los 19 años.
+
+15
+Un año es bisiesto si es múltiplo de 4, exceptuando a los años que son múltiplos de 100 pero que no sean múltiplos de 400. 
+Esto último significa que el año 1900 no es bisiesto, pero el año 2000 sí lo es. 
+Hacer un programa para  ingresar un año y listar por pantalla si es bisiesto o no lo es. 
+
+Ejemplo A. Si se ingresa el año 2020 se indicará como bisiesto. 
+Ejemplo B. Si se ingresa el año 2019 se indicará como no bisiesto. 
+Ejemplo C. Si se ingresa el año 1800 o 1900 se indicará como no bisiesto. 
+Ejemplo D. Si se ingresa el año 1600 o 2000 se indicará como bisiesto.
+
+16
+Hacer un programa para ingresar por teclado las cuatro notas de los exámenes obtenidas por un 
+alumno y luego emitir uno solo de los  cartel de acuerdo a las siguientes condiciones: 
+- “Promociona”, sí obtuvo en los cuatro exámenes nota 7 o más. 
+- “Rinde examen final”, si obtuvo nota 4 o más en por lo menos tres exámenes. 
+- “Recupera Parciales”, si obtuvo nota 4 o más en por lo menos uno de los exámenes. 
+- “Recursa la materia”, si no aprobó ningún examen parcial.
+
+17
+Hacer un programa para ingresar por teclado cuatro números. 
+Si los valores que se ingresaran están ordenados en forma creciente, emitir el mensaje 
+“Conjunto Ordenado”, caso contrario emitir el mensaje: “Conjunto Desordenado”. 
+Ejemplo A: si los números que se ingresan son 8, 10, 12 y 14, entonces están ordenados. 
+Ejemplo B: si los números que se ingresan son 8, 12, 12 y 14, entonces están ordenados. 
+Ejemplo C: si los números que se ingresan son 10, 8, 12 y 14, entonces están desordenados.
+
+18
+Una empresa de electricidad cobra el servicio a sus clientes de acuerdo a la siguiente escala: 
+$10 por kilovatio (kW) por el consumo hasta los primeros 100 kW de consumo. 
+$12 por kW por el consumo excedente de 101 a 200 kW. 
+$15 por kW por el consumo excedente de 201 kW en adelante.
+
+Hacer un programa para que, dado el consumo en kilovatios de un determinado cliente, el programa calcule e informe el total a pagar.
+Ejemplo 1: Un consumo de 55 kW, se calculará: $ 10 x 55= $ 550 
+Ejemplo 2: Un consumo de 125 kW, se calculará: $10 x 100 + $12 x 25 = $1300.
+Ejemplo 3: Un consumo de 250 kW, se calculará: $10 x 100 + $12 x 100 + $15 x 50 = $2950.
+
+19
+Este ejercicio lo resolverán en la parte de código de la materia.
+El costo de un desarrollo de un proyecto de software se calcula en base al lenguaje que se necesita: 
+
+Nombre
+Tipo
+Valor hora
+C/C++
+'C'
+$ 7500
+C#
+'#'
+$ 6100
+Python
+'P'
+$ 5400
+Go
+'G'
+$ 5000
+
+Además, si el proyecto es marcado como Urgente, se le aumenta un 120 % más al costo del proyecto. 
+Le solicitan un programa que permita calcular el costo total de un proyecto basado en la cantidad de horas 
+(int), el tipo de lenguaje (char) y si es urgente o no (bool)
+
+20
+Hacer un programa en el que se ingrese la edad y altura de 5 personas. Luego, calcular e informar:
+La cantidad de personas mayores a 30 años que midan más de 1.8 metros.
+El promedio de altura de las personas mayores a 30 años.
+La cantidad de personas con altura entre 1.7 y 1.8 (ambos inclusive)
+La cantidad de personas cuya edad sea de 20, 30 o 40 años.
+
+21
+Una marroquinería dispone de 45 carteras blancas, 50 carteras negras, 40 marrones y 49 grises. 
+Se pide hacer un programa donde se ingresen tres ventas. Cada venta está compuesta por:
+
+Cantidad de carteras
+Tipo de cartera (1 - Blanco, 2 - Negro, 3- Marrón, 4 - Gris)
+
+Calcular e informar:
+Cantidad total de carteras vendidas en total.
+Cuántas carteras quedaron de cada tipo.
+Los colores de carteras que no se vendieron.
+NOTA: Ninguna venta superará las 10 carteras.
+
+22
+Una fábrica de caramelos dispone de un presupuesto inicial para inaugurar su sucursal en Villa Brian Lara. 
+Se sabe que para producir caramelos tienen los siguientes costos:
+
+Costo de alquiler de $10000
+Costo por caramelo producido de $2.50
+Costo por mantenimiento cada 100 caramelos de $5000
+
+Dados el presupuesto inicial y la cantidad de caramelos a producir el primer mes, informar:
+"El presupuesto es suficiente para cubrir los costos de $XXXX"
+"El presupuesto no es suficiente, necesita un crédito de $XXXX"
+
+23
+Hacer un programa para ingresar un número de mes y listar por pantalla a qué bimestre corresponde ese mes. Tener en cuenta esta lista:
+Mes 1 y 2. Bimestre 1. Mes 3 y 4. Bimestre 2. Mes 5 y 6. Bimestre 3.
+Mes 7 y 8. Bimestre 4. Mes 9 y 10. Bimestre 5. Mes 11 y 12. Bimestre 6.
+
+Resolver este ejercicio utilizando la menor cantidad de salidas de IF posibles, de forma tal que si en un hipotético caso, 
+hubiera años de 200 meses su diagrama no deba ser modificado en tal situación.
+
+Recordar también que la división directa con el operador /  genera un resultado con fracción. 
+Por ejemplo si mes=7 y usted calcula bimestre=7/2 el resultado que obtendrá es bimestre= 3.5, lo cual es incorrecto.
+
+24
+Hacer un programa para ingresar un número de mes y listar por pantalla a qué trimestre corresponde ese mes. Tener en cuenta esta lista:
+Mes 1, 2 y 3. Trimestre 1. Mes 4, 5 y 6. Trimestre 2. 
+Mes 7, 8 y 9. Trimestre 3. Mes 10, 11 y 12. Trimestre 4.
+
+Resolver este ejercicio utilizando la menor cantidad de salidas de IF posibles, de forma tal que si en un hipotético caso, 
+hubiera años de 200 meses su diagrama no deba ser modificado en tal situación.
+
+Recordar también que la división directa con el operador / genera un resultado con fracción. 
+Por ejemplo si mes=7 y usted calcula trimestre=7/3 el resultado que obtendrá es trimestre= 2.33, lo cual es incorrecto.
