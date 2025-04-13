@@ -16,17 +16,20 @@
 using namespace std;
 
 int main() {
+    // Dfinicion de las variables
     int diaNaciste, mesNaciste, anioNaciste;
     int diacActual, mesActual, anioActual; 
     int edad;
 
+    // Pedimos que se ingresen la fecha, el mes y el año de nacimiento
     cout << " ¿ Que dia naciste ? ";
     cin >> diaNaciste;
-    cout << " ¿ En que es naciste ? ";
+    cout << " ¿ En que mes naciste ? ";
     cin >> mesNaciste; 
     cout << " ¿ En que año naciste ? ";
     cin >> anioNaciste; 
 
+    // Pedimos que se ingresen la fecha, el mes y el año actual
     cout << " ¿ Que dia es ? ( Ingresa el numero ) ";
     cin >> diacActual;
     cout << " ¿ En que mes estamos ? ( Ingresa el numero ) " ;
@@ -34,13 +37,16 @@ int main() {
     cout << " ¿ En que año estamos ? ( Ingresa el numero ) ";
     cin >> anioActual; 
 
+    // Restamos el año de nacimiento - el año actual y obtenemos la edad.
     edad = anioActual - anioNaciste; 
 
+    // Condicional para comprobar que la fecha, mes y año de nacimiento sea diferente a la fecha, mes y año actual
     if ( mesActual < mesNaciste || ( mesActual == mesNaciste < diacActual < diaNaciste ) )
     {
         edad --;
     }
     
-    cout << " Esta persona tiene " << edad << " de edad " << endl;
+    // Mostramos los datos por pantalla
+    cout << " Esta persona tiene " << edad << " años de edad " << endl;
     return 0;
 }   
