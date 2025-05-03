@@ -41,10 +41,15 @@ int main() {
     edad = anioActual - anioNaciste; 
 
     // Condicional para comprobar que la fecha, mes y año de nacimiento sea diferente a la fecha, mes y año actual
-    if ( mesActual < mesNaciste || ( mesActual == mesNaciste < diacActual < diaNaciste ) )
+    /*if ( mesActual < mesNaciste || ( mesActual == mesNaciste < diacActual < diaNaciste ) )
     {
         edad --;
+    }*/
+
+    if (mesActual < mesNaciste || (mesActual == mesNaciste && diacActual < diaNaciste)) {
+        edad--;
     }
+    
     
     // Mostramos los datos por pantalla
     cout << " Esta persona tiene " << edad << " años de edad " << endl;

@@ -16,38 +16,30 @@ Hacer un programa para que el usuario ingrese un número positivo y luego se mue
 pantalla los números entre el 1 y el número ingresado por el usuario. 
 Ejemplo. Si el usuario ingresa 15, se mostrarán los números entre el 1 y el 15.
 
-
-
-
 5
 Hacer un programa para que el usuario ingrese dos números y luego el programa 
 muestre por pantalla los números entre el menor y el mayor de ambos. 
 Ejemplo, si el usuario ingresa 3 y 15, se mostrarán los números entre el 3 y 
 el 15 y si el usuario ingresa 25 y 8, se mostrarán los números entre el 8 y el 25.
 
-
-
-
 6
-Hacer un programa para ingresar un N valor que indica la cantidad de números que componen una lista y luego solicitar se ingresen esos N números. Se pide informar cuantos son positivos
-Ejemplo A: Se ingresa como N el valor 5, y luego se ingresa: 10, -3, 2, 5, 4. Se listará:  Cantidad de Positivos: 4
-Ejemplo B: Se ingresa como N el valor 6, y luego se ingresa: -10, -3, -2, 0, -5, -4. Se listará: Cantidad de Positivos: 0
-
-
-
+Hacer un programa para ingresar un N valor que indica la cantidad de números que 
+componen una lista y luego solicitar se ingresen esos N números. 
+Se pide informar cuantos son positivos
+Ejemplo A: 
+Se ingresa como N el valor 5, y luego se ingresa: 10, -3, 2, 5, 4. Se listará:  Cantidad de Positivos: 4
+Ejemplo B: 
+Se ingresa como N el valor 6, y luego se ingresa: -10, -3, -2, 0, -5, -4. Se listará: Cantidad de Positivos: 0
 
 7
-Hacer un programa para ingresar una lista de 10 números, luego informar cuántos son positivos, cuántos son negativos, y cuántos iguales a cero.
+Hacer un programa para ingresar una lista de 10 números, luego informar cuántos son positivos, 
+cuántos son negativos, y cuántos iguales a cero.
 Para resolver este ejercicio sugerimos resolver antes el TP2 EJ 11.
 
 
-
-
 8
-Hacer un programa para ingresar una lista de 10 números, luego informar el porcentaje de positivos, negativos, y  ceros.
-
-
-
+Hacer un programa para ingresar una lista de 10 números, 
+luego informar el porcentaje de positivos, negativos, y  ceros.
 
 9
 Hacer un programa para ingresar una lista de 10 números, luego informar el máximo.
@@ -57,39 +49,25 @@ Ejemplo C: -15, -10, -20, -8, -25, -13, -55, -6, -55, -20. Se listará Máximo -
 El tercer ejemplo demuestra que NO SIEMPRE en una lista de números el máximo es un positivo.
 Para resolver este ejercicio sugerimos resolver antes el TP2 EJ 9 y TP2 EJ 10.
 
-
-
-
 10
-Hacer un programa para ingresar una lista de 10 números enteros, luego informar el máximo y la posición del máximo en la lista. En caso de “empates” considerar la primera aparición.
+Hacer un programa para ingresar una lista de 10 números enteros, luego informar el máximo y la posición del máximo en la lista. 
+En caso de “empates” considerar la primera aparición.
 Ejemplo A: 5, -10, 20, 8, 25, 13, 35, -8, -5, 20. Listará Máximo 35 Posición 7.
 Ejemplo B: 5, -10, 2, 8, 25, 13, 55, -8, 55, 9. Listará Máximo 55 Posición 7.
 Ejemplo C: -15, -10, -20, -8, -25, -13, -55, -6, -55, -20. Listará Máximo -6 Posición 8.
 El tercer ejemplo demuestra que NO SIEMPRE en una lista de números el máximo es un positivo.
-
-
-
-
-
-
-
 
 11
 Hacer un programa para ingresar una lista de 10 números, luego informar el máximo y el mínimo.
 Ejemplo A: 10, 20, -5, 30,-15, 5, 42, 0, 22, -13. Se listará Máximo 42 Mínimo -15.
 Ejemplo B: 10, 20, 5, 30, 15, 5, 42, 8, 22, 13. Se listará Máximo 42 Mínimo 5.
 Ejemplo C: -10, -20, -5, -30, -15, -12, -42, -8, -22, -13. Se listará Máximo -5 Mínimo -42.
-Observe que los tres ejemplos dejan en claro que la suposición de que el máximo “seguramente” es un positivo y el mínimo “seguramente” es un negativo, queda totalmente descartada.
-
-
-
+Observe que los tres ejemplos dejan en claro que la suposición de que el máximo “seguramente” 
+es un positivo y el mínimo “seguramente” es un negativo, queda totalmente descartada.
 
 12
 Hacer un programa para ingresar una lista de 10 números e informar el máximo de los negativos y el mínimo de los positivos. 
 Ejemplo: 5, 8, 12, 2, -10, 15, -20, 8, -3, 24. Máximo Negativo -3. Mínimo Positivo 2.
-
-
-
 
 13
 Dada una lista de 10 números enteros informar cual es el máximo de los pares. 
@@ -97,34 +75,34 @@ Ejemplo A: 2, 10, 20, 8, 25, 13, 36, - 8, -5, 20 se informa máximo: 36
 Ejemplo B 5, -13, 23, 81, -55, -13, 55, 4, 15 ,-20 Se informa máximo: 4
 Ejemplo C: -5, -13, -20, -8, -55, -13, -55, -14, -15, -20 se informa máximo: -8
 
-
-
-
 14
 Dada una lista de 7 números enteros informar cual es el primer, el segundo, el anteúltimo y el último número impar ingresado.
 Ejemplo 8, 4, -5, 7, 9, 18, 5 se informa: Primer impar: -5, Segundo impar: 7, Anteúltimo impar: 9 y Último impar: 5.
 
-
-
-
 15
-Hacer un programa para ingresar una lista de 8 números y luego informar si todos están ordenados en forma creciente. En caso de haber dos números “empatados” considerarlos como crecientes. 
+Hacer un programa para ingresar una lista de 8 números y luego informar si todos están ordenados en forma creciente.
+En caso de haber dos números “empatados” considerarlos como crecientes. 
 Por ejemplo si la lista fuera: 
-Ejemplo A: -10, 1, 5, 7, 15, 18, 20, 23 se emitirá un cartel: “Conjunto Ordenado” Ejemplo B: 10, 10, 15, 20, 25, 25, 28, 33 se emitirá un cartel: “Conjunto Ordenado” Ejemplo C: 10, 1, 15, 7, -15, 18, 20, 23 se emitirá un cartel: “Conjunto No Ordenado”
+Ejemplo A: -10, 1, 5, 7, 15, 18, 20, 23 se emitirá un cartel: “Conjunto Ordenado” 
+Ejemplo B: 10, 10, 15, 20, 25, 25, 28, 33 se emitirá un cartel: “Conjunto Ordenado” 
+Ejemplo C: 10, 1, 15, 7, -15, 18, 20, 23 se emitirá un cartel: “Conjunto No Ordenado”
 Para resolver este ejercicio sugerimos resolver antes el TP2 EJ 17.
 
 
 
 
 16
-Hacer un programa para ingresar 5 números, luego informar los 2 mayores valores ingresados, aclarando cual es el máximo y cuál el que le sigue. 
+Hacer un programa para ingresar 5 números, luego informar los 2 mayores valores ingresados, aclarando 
+cual es el máximo y cuál el que le sigue. 
 Ejemplo A: 10, 8, 12, 14, 3 el resultado será 14 y 12. 
 Ejemplo B: 14, 8, 12, 14 ,3 el resultado será 14 y 14.
 Ejemplo C: -4, -8, -12, -20, -10 el resultado será -4 y -8
 Ejemplo D: 100, 20, 5, -15, 70, el resultado será 100 y 70. 
 Ejemplo E: -100, -20, -5, 15, -70, el resultado será 15 y -5. 
 
-Se recomienda probar el diagrama que vaya a desarrollar con todos los ejemplos, en particular el Ejemplo D, en el cual el máximo de la lista aparece en el primer lugar y que si no se tiene precaución puede llevar a resultados como 100 como máximo y 100 como segundo máximo. ¡ESO ES INCORRECTO! El resultado debe ser 100 y 70.
+Se recomienda probar el diagrama que vaya a desarrollar con todos los ejemplos, en particular el Ejemplo D, 
+en el cual el máximo de la lista aparece en el primer lugar y que si no se tiene precaución puede llevar a resultados 
+como 100 como máximo y 100 como segundo máximo. ¡ESO ES INCORRECTO! El resultado debe ser 100 y 70.
 
 
 

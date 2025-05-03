@@ -1,0 +1,314 @@
+
+1
+Hacer un programa para ingresar una lista de 10 números y luego informar cuántos de los números ingresados son perfectos. Se informa 1 resultado al final.
+
+
+
+
+2
+Hacer un programa para ingresar una lista de 10 números y luego informar cuántos de los números ingresados son primos. Se informa 1 resultado al final.
+
+
+
+
+3
+Hacer un programa para ingresar una lista de números que finaliza cuando se ingresa un cero y luego informar el porcentaje de números primos y el porcentaje de números no primos. Se informan 2 resultados al final.
+
+
+
+
+4
+Dada una lista de números compuesta por 10 grupos y cada grupo separado del siguiente por un cero, se pide determinar e informar:
+
+a) Para cada uno de los grupos el máximo de los números pares y el máximo de los números impares. Se informan 2 resultados por cada grupo.
+b) Para cada uno de los grupos el porcentaje de números negativos y números positivos. Se informan 2 resultados por cada grupo.
+c) Cuántos números positivos había en total entre los 10 grupos. Se informa 1 resultado al final.
+
+
+
+
+5
+Se dispone de una lista de 10 grupos de números enteros separados entre ellos por ceros. Se pide determinar e informar:
+a) El número de grupo con mayor porcentaje de números impares positivos respecto al total de números que forman el grupo. Se informa 1 resultado al final.
+b) Para cada grupo el último número primo y en qué orden apareció en ese grupo, si en un grupo no hubiera números primos informar con un cartel aclaratorio. Se informan 2 resultados por cada grupo.
+c) Informar cuantos grupos están formados por todos números ordenados de mayor a menor. Se informa 1 resultado al final.
+
+
+
+
+6
+Dada una lista de números todos distintos entre sí y que finaliza con un cero, determinar 
+e informar con un cartel aclaratorio si los números primos de la lista están ordenados de 
+menor a mayor. Los números primos pueden no ser consecutivos, pero sí deben estar ordenados.
+Por ejemplo:
+Ejemplo A: 4, 5, 7, 12, 13, 0. Se emite un cartel que diga “Ordenados” (5, 7 y 13)
+Ejemplo B: 2, 10, 3, 5, 11, 7, 14, 0. Se emite un cartel que diga “Desordenados” (2, 3, 5, 11 y 7).
+
+
+
+
+7
+Se dispone de una lista de 10 grupos de números enteros separados entre ellos por ceros. Se pide determinar e informar:
+
+a) Informar el promedio de cada grupo. Se informa 1 resultado por cada grupo.
+b) Determinar e informar el valor mínimo de todos los grupos, indicando en qué grupo se encontró y su posición relativa en el mismo. Se informan 3 resultados al final.
+c) El mayor de los promedios y a que grupo pertenecía. Se informan 2 resultados al final.
+
+
+
+
+8
+Hacer un programa para ingresar por teclado 5 grupos compuestos por números ordenados de menor a mayor. El final de cada grupo se detecta al ingresar un número menor a su anterior. 
+Se debe obtener y emitir:
+a) Para cada uno de los grupos la cantidad de números primos que lo componen. Se informa 1 resultado por cada grupo.
+b) El menor número par de cada uno de los grupos. Se informa 1 resultado por cada grupo.
+c) El anteúltimo y último número positivo de cada uno de los grupos. Se informan 2 resultados por cada grupo.
+
+Ejemplo de cómo se conforman los grupos:
+-20, -5, 8,  2, 20, 35, 42,   12, 22, 23,   7, 12, 18, 23, 80,   12, 24, 36, -5
+Grupo 1          Grupo 2       Grupo 3        Grupo 4        Grupo 5
+
+
+
+
+9
+Hacer un programa para ingresar los valores de los pesos de distintas encomiendas que se deben enviar a distintos clientes y que finaliza cuando se ingresa un peso negativo. Se deben agrupar las encomiendas en camiones que pueden transportar hasta 200 kilos en total.
+
+Ejemplo: 10, 20, 140,   70, 100,   40, 10, 50, 80,   90, 30, 40,   50, -10
+Camión:           1               2                   3                       4              5                      
+
+Se pide determinar e informar:
+a) El número de cada camión y peso total de encomiendas. Camión 1: 170 kg, Camión 2: 170 kg, etc. 
+b) El número de camión que transporta mayor cantidad de encomiendas. En el ejemplo anterior sería el Camión 3 con 4 encomiendas. 
+
+
+
+
+10
+Dada una lista de números compuesta por grupos donde cada grupo está separado del siguiente por un cero, y la lista de números finaliza cuando se ingresan dos ceros consecutivos, se pide determinar e informar:
+
+a) La cantidad de grupos en los que se detecten un total de 4 o más números primos consecutivos. Se informa 1 resultado al final.
+b) Para cada uno de los grupos en los que se haya detectado números negativos, el mayor y el segundo mayor de los mismos y en qué posición estaban dentro del subgrupo. En los grupos sin negativos, informar “Grupo sin negativos”. Se informan 4 resultados por cada grupo. 
+c) El mayor número primo de todos los grupos, informando además en cual grupo y en qué posición del mismo fue detectado.  Se informan 3 resultados al final.
+
+Ejemplo de una posible lista: 5, 4, 3, 0, 18, -5, 20, 0, 7, 11, 25, 4, 0, 0.
+
+
+
+
+
+
+
+
+11
+Dada una lista de números compuesta por 10 grupos y cada grupo separado del siguiente por un cero, se pide determinar e informar:
+Para cada uno de los grupos el máximo y mínimo de los números pares. Se informan 2 resultados para cada grupo.
+La cantidad de  grupos donde se detectan 2 números perfectos consecutivos. Se informa 1 resultado al final. 
+Informar cuántos grupos están formados por todos números alternados positivos y negativos. Se informa 1 resultado al final. 
+Ejemplo 1 de un grupo alternado: 2, -3, 8, -10, 25, -13, 0
+Ejemplo 2 de un grupo alternado: -2, 3, -8, 10, -25, 6, 0
+
+
+
+
+
+12
+Se dispone de una lista de 10 grupos de números y cada uno de los grupos estará compuesto por 5 números. Se pide determinar e informar:
+Para cada uno de los 10 grupos la cantidad de números positivos, negativos y ceros que lo componen. Se informan 3 resultados para cada uno de los 10 grupos.
+Para cada uno de los 10 grupos el último número primo y en qué orden apareció en ese grupo, si en un grupo no hubiera números primos informar con un cartel aclaratorio. Se informan 2 resultados para cada uno de los 10 grupos.
+Informar cuántos números impares hay en total entre los 10 grupos. Se informa un resultado al final de todo, es decir no debe informar resultados grupo por grupo.
+
+
+
+
+13
+Se dispone de una lista de 10 grupos de números y cada uno de los grupos estará compuesto por 5 números. Se pide determinar e informar:
+Para cada uno de los 10 grupos el promedio de los números que lo componen. Se informa  un resultado para cada uno de los 10 grupos.
+Determinar e informar el valor mínimo de todos los grupos, indicando en cuál grupo se encontró y su posición relativa en el mismo. Se informan 2 resultados al final de todo.
+Indicar cuál de los 10 grupos tiene el mayor de los promedios y cuál es ese valor promedio. Se informan 2 resultados al final de todo.
+
+
+
+
+14
+Dada una lista de números compuesta por grupos, cada grupo separado del siguiente por un cero, ingresando un número cero cuando no hay más grupos, se pide determinar e informar:
+Para cada uno de los grupos el máximo de los números negativos y el mínimo de los números positivos. Se informan 2 resultados por cada grupo.
+Para cada uno de los grupos el porcentaje de números pares y números impares. Se informan 2 resultados por cada grupo.
+Cuántos números primos había en total entre los grupos. Se informa 1 resultado al final.
+
+
+15
+Se dispone de una lista de 20 grupos de números y cada uno de los grupos estará compuesto por 10 números. Se pide determinar e informar: 
+Informar cuántos grupos están formados por todos números alternados perfectos y no perfectos. Se informa 1 resultado al final. 
+Ejemplo 1 de un grupo alternado: 6, 12, 28, 18, 6, 13, 6, 15
+Ejemplo 2 de un grupo alternado: 12, 6, 15, 496, 25, 28, 15, 6
+Para cada uno de los grupos el porcentaje de números primos y no primos. Se informan 2 resultados para cada grupo.
+La cantidad de grupos donde se detectan 4 números primos consecutivos. Se informa un resultado al final. 
+
+
+
+
+
+16
+Una empresa registró las ventas que efectuó durante un día y para cada venta registró los siguientes datos:
+
+Número de Artículo Vendido (1 a 3)
+Cantidad de Unidades Vendidas
+Importe de la Venta
+
+El lote finaliza cuando se ingresa un registro con Número de Artículo igual a 0. 
+Se pide determinar e informar:
+a) La recaudación total para cada uno de los 3 artículos. Se informan 3 resultados al final.
+b) El número de artículo con mayor cantidad TOTAL de unidades vendidas. Se informa 1 resultado al final.
+
+
+17
+Una empresa registró las ventas que efectuó durante un día y para cada venta registró los siguientes datos:
+
+Número de Artículo Vendido (1 a 30)
+Cantidad de Unidades Vendidas
+Importe de la Venta
+
+El lote finaliza cuando se ingresa un registro con Número de Artículo igual a 0. En el lote anterior no aparecen registros de los artículos que por alguna razón no se hayan vendido durante el día. Los registros están agrupados por número de artículo. 
+Se pide determinar e informar:
+La recaudación total para cada uno de los artículos vendidos. Se informa 1 resultado para cada uno de los grupos.
+El número de artículo con mayor cantidad TOTAL de unidades vendidas.
+
+
+
+
+
+
+18
+Un supermercado tiene registrada la información de las ventas efectuadas durante el mes pasado entre todas las sucursales y se solicita un programa para obtener determinadas estadísticas.
+Los datos que se disponen por cada una de las ventas efectuadas son:
+Número de sucursal (1 a 30)
+Día de la venta (1 a 31)
+Importe de la venta
+Tipo de venta (1=Particular, 2=Obra Social)
+Forma de Pago (1=Débito, 2=Crédito, 3=Contado)
+Los datos están agrupados (no ordenados) por número de sucursal y puede haber varias ventas para la misma sucursal, para el mismo día, etc. Puede haber sucursales sin ventas durante todo el mes o durante algunos días del mes, no habrá registros con importes iguales a 0. Al final de todo el lote se indicará con un registro con número de sucursal igual a 0.
+Se pide determinar e informar:
+Para cada una de las sucursales el porcentaje de recaudación total  por sus ventas en crédito, débito y contado. Se informan 3 resultados por cada sucursal.
+Indicar en cual sucursal se hizo el menor porcentaje de recaudación total por ventas de Tipo Obra Social. Se informa 1 resultado al final.
+Para cada sucursal informar la primera y segunda venta individual de mayor importe. Se informan 2 resultados por sucursal.
+La venta de menor importe de todas las ventas, indicando la sucursal y el día de la venta. Se informan 3 resultados al final.
+
+
+19
+Un negocio de venta de huevos tiene registrada la información de las ventas efectuadas durante el mes pasado entre todas las sucursales. Los datos que se disponen por cada una de las ventas efectuadas son:
+Número de sucursal (1 a 30)
+Día de la venta (1 a 31)
+Cantidad de cajas de huevos vendidas
+Importe de la venta 
+Forma de Pago (1=Débito, 2=Crédito, 3=Contado)
+Los datos están agrupados, no ordenados, por número de sucursal y puede haber varias ventas para la misma sucursal, para el mismo día, etc.
+Puede haber sucursales sin ventas durante todo el mes o durante algunos días del mes. En tal caso no habrá registros de ventas para esa sucursal o para esos días del mes. No habrá registros con cantidades o importes iguales a 0.
+La finalización de todo el lote se indicará con un registro con número de sucursal igual a 0.
+Se pide determinar e informar:
+Informar en cuál de las sucursales la cantidad TOTAL de cajas de huevos vendidos haya sido menor descartando  a las sucursales cuya cantidad TOTAL de cajas vendidas fue menor a 100. Se informa 1 resultado al final.  
+Informar el número de quincena en la que se hayan vendido mayor cantidad de cajas entre todas las sucursales. Se informa un resultado al final de todo.
+Para cada una de las sucursales el porcentaje de recaudación total por sus ventas discriminado en crédito, débito y contado. Se informan 3 resultados por cada sucursal.
+Para cada sucursal informar la primera y segunda venta individual de menor importe, indicando además en qué día fueron esas ventas. Se informan 4 resultados por sucursal.
+
+
+
+
+20
+Una empresa registró las ventas que realizó durante el mes anterior. Para cada venta se ingresan los siguientes datos.
+Número de artículo (1 a 30)
+Día de la venta (1 a 31)
+Cantidad de unidades vendidas
+Importe de la venta
+Este lote finaliza con un registro con número de artículo igual a cero. Los registros están agrupados (no ordenados) por número de artículo,  y puede haber varios registros para el mismo artículo, para el mismo día, etc. En el lote no aparecen registros de los artículos que no se vendieron durante el mes.
+Se pide determinar e informar:
+El número de artículo más vendido en unidades totales considerando las ventas de la primera quincena. 
+Para cada uno de los artículos informar la recaudación total del mes.
+Informar en cual quincena se vendió mayor cantidad de unidades totales.
+Informar el número de artículo del que más se haya vendido en cantidad de unidades en una venta individual indicando además en qué día fue esa venta.
+Considerar para el tema de las quincenas que la Quincena 1  corresponde a los días 1 al 15 y la Quincena 2 corresponde a los días 16 al 31.
+
+
+
+
+21
+Una casa de ventas de libros con varias sucursales registró las ventas durante el mes anterior en un lote de registros. Para cada venta se registraron los siguientes datos:
+Sucursal de la venta (1 a 20)
+Número del vendedor que efectuó la venta (1 a 150)
+Día de la venta (1 a 31)
+Importe de la venta
+Tipo de Cliente ("U"= Universitario, "N"= No Universitario )
+El lote finaliza con un registro con importe igual a cero. Los datos se ingresan agrupados por sucursal.
+A partir de esta información se pide determinar e informar:
+La comisión total pagada a todos los vendedores en el mes para cada sucursal.
+Considerar que la comisión es un 10% cuando el tipo de cliente es universitario y un 20% cuando no lo es.
+La cantidad total vendida de libros por cada sucursal.
+El número de vendedor que haya efectuado la venta individual de mayor importe, informando en qué sucursal trabaja y el día en que se realizó esa venta. Se esperan los datos de un único vendedor.
+El promedio de recaudación por sucursal para la segunda quincena para los clientes No Universitarios.
+El porcentaje de ventas total discriminado por clientes Universitarios y No Universitarios.
+
+
+
+
+22
+Una compañía de turismo aventura registró los paquetes vendidos durante la última temporada vacacional. Para cada venta se ingresó:
+Número de paquete (4 dígitos no correlativos).
+Cantidad de personas incluidas.
+Precio por persona.
+Horas totales de actividades.
+Tipo de aventura (“M”, Montaña. “T”, Trekking. “R”, Rafting. “B”, Bicicleta. “C”, Canopy. “E”, Escalar. “K”, Sky. “S”, Snowboard. “J”, Jumping. “P”, Parapente).
+El lote se encuentra no ordenado y agrupado por tipo de aventura y corta con número de paquete cero. En el lote no se ingresan registros cuyo tipo de aventura no se haya vendido.
+A partir de dichos datos, se solicita informar:
+La cantidad de paquetes vendidos de cada tipo de aventura.
+La cantidad total de personas que disfrutaron de las aventuras durante la temporada.
+El total recaudado por cada venta.
+La venta con mayor importe de cada tipo de aventura.
+
+
+
+
+23
+Una universidad registró las inscripciones a las materias de todas sus carreras durante el año anterior. Para cada registro se ingresa:
+Legajo de alumno (número no correlativo de cinco cifras). 
+Código de carrera (número del 1 al 20)
+Código de materia (número del 1 al 60)
+Modalidad (“P” si es presencial, “D” si es a distancia)
+Horario (“M” para mañana, “T” para tarde, “N” para noche)
+El lote finaliza con número de legajo cero y los registros se encuentran agrupados por carrera. A partir de dichos datos se solicita determinar e informar:
+﻿La cantidad de inscripciones registradas para cada carrera.
+La carrera con más inscripciones a la modalidad Distancia.
+El porcentaje de inscripciones registradas a los distintos horarios teniendo en cuenta el total, discriminado por carrera.
+La carrera con menos inscripciones registradas.
+
+
+24
+Una expendedora de combustibles con varias sucursales tiene un lote de registros con las ventas del mes de enero, cada registro tiene los siguientes datos: 
+Nro. de Sucursal (del 1 al 15).
+Día de la venta.
+Tipo de día ("H" = hábil, "F" = fin de semana).
+Tipo de Combustible (1 = Premium, 2 = Súper, 3 = Gasoil).
+Monto de la venta.
+Los registros se encuentran agrupados por Sucursal y el fin del lote se indica con Sucursal 0.
+Se pide determinar e informar:
+El promedio de recaudación para cada uno de los tres tipos de combustible en cada sucursal.
+La recaudación total acumulada discriminada para la primera y la última semana del mes.
+La sucursal con mayor recaudación en los días hábiles.
+La recaudación máxima en fines de semana por cada tipo de combustible y en qué sucursal fue cada uno.
+
+
+
+
+25
+Una empresa registró las compras realizadas a sus distintos proveedores durante todo el año anterior. Para cada compra se registraron los siguientes datos:
+Número de proveedor (número de cuatro cifras no correlativo).
+Día (1 a 31).
+Mes (1 a 12).
+Tipo de Factura (Responsable inscripto: "A", Consumidor Final: "B", o Monotributo: "C").
+Monto de la compra.
+Este lote finaliza con un registro con número de proveedor igual a 0.
+Los registros están agrupados por número de proveedor. En el lote anterior no aparecen registros de los proveedores a los que que no se les hayan realizado compras.
+Se pide determinar e informar:
+El monto máximo registrado en una sola compra por cada proveedor y el número de proveedor al que se le compró.
+La inversión total de todo el año discriminada por tipo de factura.
+La compra con menor monto registrada durante el mes de Agosto junto al tipo de factura de la compra.
+La cantidad de compras que se realizaron a cada proveedor.
