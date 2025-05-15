@@ -1,18 +1,21 @@
-
 1
-Hacer un programa para ingresar una lista de 10 números y luego informar cuántos de los números ingresados son perfectos. Se informa 1 resultado al final.
+Hacer un programa para ingresar una lista de 10 números y luego informar cuántos 
+de los números ingresados son perfectos. Se informa 1 resultado al final.
 
 
 
 
 2
-Hacer un programa para ingresar una lista de 10 números y luego informar cuántos de los números ingresados son primos. Se informa 1 resultado al final.
+Hacer un programa para ingresar una lista de 10 números y luego informar cuántos 
+ los números ingresados son primos. Se informa 1 resultado al final.
 
 
 
 
 3
-Hacer un programa para ingresar una lista de números que finaliza cuando se ingresa un cero y luego informar el porcentaje de números primos y el porcentaje de números no primos. Se informan 2 resultados al final.
+Hacer un programa para ingresar una lista de números que finaliza cuando se ingresa 
+un cero y luego informar el porcentaje de números primos y el porcentaje de números 
+no primos. Se informan 2 resultados al final.
 
 
 
@@ -169,7 +172,8 @@ Número de Artículo Vendido (1 a 30)
 Cantidad de Unidades Vendidas
 Importe de la Venta
 
-El lote finaliza cuando se ingresa un registro con Número de Artículo igual a 0. En el lote anterior no aparecen registros de los artículos que por alguna razón no se hayan vendido durante el día. Los registros están agrupados por número de artículo. 
+El lote finaliza cuando se ingresa un registro con Número de Artículo igual a 0. En el lote anterior no aparecen registros 
+de los artículos que por alguna razón no se hayan vendido durante el día. Los registros están agrupados por número de artículo. 
 Se pide determinar e informar:
 La recaudación total para cada uno de los artículos vendidos. Se informa 1 resultado para cada uno de los grupos.
 El número de artículo con mayor cantidad TOTAL de unidades vendidas.
@@ -180,36 +184,47 @@ El número de artículo con mayor cantidad TOTAL de unidades vendidas.
 
 
 18
-Un supermercado tiene registrada la información de las ventas efectuadas durante el mes pasado entre todas las sucursales y se solicita un programa para obtener determinadas estadísticas.
+Un supermercado tiene registrada la información de las ventas efectuadas durante el mes pasado entre 
+todas las sucursales y se solicita un programa para obtener determinadas estadísticas.
 Los datos que se disponen por cada una de las ventas efectuadas son:
 Número de sucursal (1 a 30)
 Día de la venta (1 a 31)
 Importe de la venta
 Tipo de venta (1=Particular, 2=Obra Social)
 Forma de Pago (1=Débito, 2=Crédito, 3=Contado)
-Los datos están agrupados (no ordenados) por número de sucursal y puede haber varias ventas para la misma sucursal, para el mismo día, etc. Puede haber sucursales sin ventas durante todo el mes o durante algunos días del mes, no habrá registros con importes iguales a 0. Al final de todo el lote se indicará con un registro con número de sucursal igual a 0.
+Los datos están agrupados (no ordenados) por número de sucursal y puede haber varias ventas para la 
+misma sucursal, para el mismo día, etc. Puede haber sucursales sin ventas durante todo el mes o durante 
+algunos días del mes, no habrá registros con importes iguales a 0. Al final de todo el lote se 
+indicará con un registro con número de sucursal igual a 0.
 Se pide determinar e informar:
-Para cada una de las sucursales el porcentaje de recaudación total  por sus ventas en crédito, débito y contado. Se informan 3 resultados por cada sucursal.
+Para cada una de las sucursales el porcentaje de recaudación total  por sus ventas en crédito, débito y contado. 
+Se informan 3 resultados por cada sucursal.
 Indicar en cual sucursal se hizo el menor porcentaje de recaudación total por ventas de Tipo Obra Social. Se informa 1 resultado al final.
 Para cada sucursal informar la primera y segunda venta individual de mayor importe. Se informan 2 resultados por sucursal.
 La venta de menor importe de todas las ventas, indicando la sucursal y el día de la venta. Se informan 3 resultados al final.
 
 
 19
-Un negocio de venta de huevos tiene registrada la información de las ventas efectuadas durante el mes pasado entre todas las sucursales. Los datos que se disponen por cada una de las ventas efectuadas son:
+Un negocio de venta de huevos tiene registrada la información de las ventas efectuadas durante el mes 
+pasado entre todas las sucursales. Los datos que se disponen por cada una de las ventas efectuadas son:
 Número de sucursal (1 a 30)
 Día de la venta (1 a 31)
 Cantidad de cajas de huevos vendidas
 Importe de la venta 
 Forma de Pago (1=Débito, 2=Crédito, 3=Contado)
 Los datos están agrupados, no ordenados, por número de sucursal y puede haber varias ventas para la misma sucursal, para el mismo día, etc.
-Puede haber sucursales sin ventas durante todo el mes o durante algunos días del mes. En tal caso no habrá registros de ventas para esa sucursal o para esos días del mes. No habrá registros con cantidades o importes iguales a 0.
+Puede haber sucursales sin ventas durante todo el mes o durante algunos días del mes. En tal caso no habrá registros de ventas para esa 
+sucursal o para esos días del mes. No habrá registros con cantidades o importes iguales a 0.
 La finalización de todo el lote se indicará con un registro con número de sucursal igual a 0.
 Se pide determinar e informar:
-Informar en cuál de las sucursales la cantidad TOTAL de cajas de huevos vendidos haya sido menor descartando  a las sucursales cuya cantidad TOTAL de cajas vendidas fue menor a 100. Se informa 1 resultado al final.  
-Informar el número de quincena en la que se hayan vendido mayor cantidad de cajas entre todas las sucursales. Se informa un resultado al final de todo.
-Para cada una de las sucursales el porcentaje de recaudación total por sus ventas discriminado en crédito, débito y contado. Se informan 3 resultados por cada sucursal.
-Para cada sucursal informar la primera y segunda venta individual de menor importe, indicando además en qué día fueron esas ventas. Se informan 4 resultados por sucursal.
+Informar en cuál de las sucursales la cantidad TOTAL de cajas de huevos vendidos haya sido menor descartando  a las 
+sucursales cuya cantidad TOTAL de cajas vendidas fue menor a 100. Se informa 1 resultado al final.  
+Informar el número de quincena en la que se hayan vendido mayor cantidad de cajas entre todas las sucursales. Se 
+informa un resultado al final de todo.
+Para cada una de las sucursales el porcentaje de recaudación total por sus ventas discriminado en crédito, débito y 
+contado. Se informan 3 resultados por cada sucursal.
+Para cada sucursal informar la primera y segunda venta individual de menor importe, indicando además en qué día 
+fueron esas ventas. Se informan 4 resultados por sucursal.
 
 
 

@@ -41,7 +41,7 @@
         }
         cout << "----------------------------------\n";
     }
-    
+
     Ciclo combinado con 1 ciclo for y 1 ciclo while adentro:
     for (int i = 0; i < 5; i++) {
         cout << "Lote " << i + 1 << ":" << endl;
@@ -130,7 +130,7 @@ int main() {
 
 // Ejemplo 2: Hacer un programa para ingresar 5 lotes de números.
 // Cada lote termina cuando se ingresa un 0.
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -153,5 +153,83 @@ int main() {
         cout << "---------------------------\n";
     }
 
+    return 0;
+}
+*/
+
+// Corte de control
+/*
+    ¿ Que es el corte de control ?
+    El corte de control es una metodologia para la manipulacion de datos bajo determinado escenario.
+
+    ¿ Cual es la clave e corte de control ?
+    La clave para que el corte de control funcione es que los datos tiene que venir agrupados.
+    Esto no es lo mismo que ordenados.
+    Ejemplo:
+    Tengo un comercio y tengo facturas A, B y C.
+    Cuando hablamos de que los datos tienen que estar agrupados quiero decir que
+    las facturas A van con todas las facturas A.
+    las facturas B van con las B.
+    las facturas C van con las C.
+    Pero esto no quiere decir que se tienen que ingresar en orden. yo puedo ingresarlas como C,B,A o B,A,C
+    o el orden que yo quiera siempre que las facturas esten agrupadas.
+
+    ¿ Como es la estructura de un corte de control ?
+    En corte de contros siempre se usa un ciclo while dentro de otro ciclo while.
+    Ya que cuando usamos corte de control no sabemos cuando es que termina en ingreso de datos
+    y como el ciclo while es "MIENTRAS SE CUMPLA TAL CONDICION" es perfecto para este tipo de tareas.
+
+
+*/
+
+// Codigo de ejemplo:
+// Ingresamos una lista de personajes.
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    //int numeroSerie, numeroSerieActual, nombrePersonaje, nombreSerie, edad;
+     int numeroSerie;
+    string nombrePersonaje;
+    int edad;
+
+    cout << " Ingresa el nombre de una serie ";
+    cin >> nombreSerie;
+
+    cout << " Ingresa el nombre del personje ";
+    cin >> nombrePersonaje;
+
+    cout << " Ingresa la edad del personaje ";
+    cin >> edad;
+
+    while (numeroSerie != 0)
+    {
+        numeroSerie == numeroSerieActual;
+
+        cout << " Ingresa el nombre de una serie ";
+        cin >> nombreSerie;
+
+        cout << " Ingresa el nombre del personje ";
+        cin >> nombrePersonaje;
+
+        cout << " Ingresa la edad del personaje ";
+        cin >> edad;
+
+        while (numeroSerie == numeroSerieActual)
+        {
+            if ( nombrePersonaje = numeroSerieActual )
+            {
+                cout << " Este personaje pertenece a esta serie " << numeroSerieActual << endl ;
+            } else {
+                cout << " Este personaje no es de esta serie " << numeroSerieActual << endl;
+            }
+        }
+    }
+    
+    cout << " Se termino el programa " << numeroSerie << endl;
     return 0;
 }
