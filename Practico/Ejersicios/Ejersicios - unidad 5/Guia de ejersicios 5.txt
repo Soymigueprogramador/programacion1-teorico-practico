@@ -1,82 +1,68 @@
 
 1
-Hacer una función llamada EsPar que determine si un número es par o no. La función debe recibir un número entero por valor y devolver true si es par o false si no lo es. La función no debe mostrar nada por pantalla. 
-Hacer un programa para ingresar un número y, utilizando EsPar, emita luego un cartel indicando si el número ingresado es par o no es par.
-
-
-
+Hacer una función llamada EsPar que determine si un número es par o no. La función 
+debe recibir un número entero por valor y devolver true si es par o false si no lo es. 
+La función no debe mostrar nada por pantalla. 
+Hacer un programa para ingresar un número y, utilizando EsPar, emita luego un cartel 
+indicando si el número ingresado es par o no es par.
 
 2
-Hacer una función llamada CalcularMaximo que determine el máximo entre dos números. La función debe recibir dos números enteros por valor y devolver el valor más grande. Si los números son iguales debe devolver cualquiera de los dos. La función no debe mostrar nada por pantalla. 
+Hacer una función llamada CalcularMaximo que determine el máximo entre dos números. 
+La función debe recibir dos números enteros por valor y devolver el valor más grande. 
+Si los números son iguales debe devolver cualquiera de los dos. La función no debe mostrar nada por pantalla. 
 Hacer un programa para ingresar dos números y, utilizando CalcularMaximo, emita luego el número mayor de ambos.
 
+3- Hacer una función llamada EsPrimo que determine si un número es primo o no. 
+    La función debe recibir el número y devolver true si es primo o false si no lo es. 
+    La función no debe mostrar nada por pantalla. 
+    Hacer un programa para ingresar un número y, utilizando EsPrimo, 
+    emita luego un cartel indicando si el número ingresado es primo o no es primo. 
 
+4- Hacer una función llamada EsPrimoSophieGermain que reciba un número entero y determine 
+    si el mismo es un número primo de Sophie Germain. Debe devolver verdadero si lo es y falso si no lo es.
+    NOTA: En teoría de números, se dice que un número natural es un número primo de Sophie Germain, si el 
+    número n es primo y 2*n+1 también lo es.
+    Ejemplo:
+    El número 2 es número primo de Sophie Germain porque:
+    2 es primo
+    2*2+1 → 5 es primo.
 
+    Hacer un programa para ingresar un número y, utilizando EsPrimoSophieGermain, emita luego un cartel indicando 
+    si el número ingresado es primo Sophie Germain o no lo es.
 
-3
-Hacer una función llamada EsPrimo que determine si un número es primo o no. La función debe recibir el número y devolver true si es primo o false si no lo es. La función no debe mostrar nada por pantalla. 
-Hacer un programa para ingresar un número y, utilizando EsPrimo, emita luego un cartel indicando si el número ingresado es primo o no es primo. 
+5- Hacer una función llamada Redondear que reciba como parámetro un número float y devuelva un número entero con el redondeo del mismo.
+    Por ejemplo:
+    Si recibe 7.78, debe devolver 8.
+    Si recibe 7.48, debe devolver 7.
+    Si recibe 7.5, debe devolver 8.
 
+    Hacer un programa para ingresar un número y, utilizando Redondear, emita luego un cartel indicando el número redondeado.
 
+6- Hacer una función que reciba un número entero por valor llamado día y un string llamado 
+   nombre por referencia y le asigne el nombre correspondiente según el número de día. Siendo 0 → Domingo y 6 → Sábado.
 
+7- Escribir una función CalcularMaximoAbsoluto que reciba dos números y retorne el máximo absoluto de ambos. 
+    Por ejemplo el máximo absoluto de los números -40 y 20 es 40.
+    Hacer un programa para ingresar dos números y, utilizando CalcularMaximoAbsoluto, emita luego el número mayor absoluto de ambos.
 
-4
-Hacer una función llamada EsPrimoSophieGermain que reciba un número entero y determine si el mismo es un número primo de Sophie Germain. Debe devolver verdadero si lo es y falso si no lo es.
-NOTA: En teoría de números, se dice que un número natural es un número primo de Sophie Germain, si el número n es primo y 2*n+1 también lo es.
-Ejemplo:
-El número 2 es número primo de Sophie Germain porque:
-2 es primo
-2*2+1 → 5 es primo.
+8- Escribir una función que reciba el valor de un año y retorne 1 si el mismo es bisiesto y 0 si es un año no bisiesto. 
+    Recordar que son años bisiestos los divisibles por 4, excepto los divisibles por 100, 
+    pero dentro de este grupo se incluyen los divisibles por 400. Por ejemplo 1992 fue 
+    bisiesto por ser divisible por 4. El año 1900 no fue bisiesto por ser divisible por 100, 
+    aun siendo divisible por 4. Y el año 2000 fue bisiesto por ser divisible por 400, aun siendo divisible por 100.
+    Hacer un programa para ingresar una lista de 10 valores de años y contar cuantos son bisiestos. Utilizar la función solicitada.
 
-Hacer un programa para ingresar un número y, utilizando EsPrimoSophieGermain, emita luego un cartel indicando si el número ingresado es primo Sophie Germain o no lo es.
+9- Escribir una función que reciba un número y retorne 1 si el número recibido es perfecto y 0 si no es perfecto.
+    Hacer un programa para que, dada una lista de números que finaliza con cero, informe cuántos de ellos eran perfectos. 
+    Utilizar la función solicitada.
 
+10- Hacer una función que reciba un código de naipe (del 1 al 40) y determine el número y el palo de la 
+    baraja española de 40 cartas (sin los 8, 9 y comodines del mazo). La función debe recibir por referencia 
+    el número de naipe y el nombre del palo (para ser completados por la función) y por valor el código de naipe.
 
-
-
-5
-Hacer una función llamada Redondear que reciba como parámetro un número float y devuelva un número entero con el redondeo del mismo.
-Por ejemplo:
-Si recibe 7.78, debe devolver 8.
-Si recibe 7.48, debe devolver 7.
-Si recibe 7.5, debe devolver 8.
-
-Hacer un programa para ingresar un número y, utilizando Redondear, emita luego un cartel indicando el número redondeado.
-
-
-
-
-6
-Hacer una función que reciba un número entero por valor llamado día y un string llamado nombre por referencia y le asigne el nombre correspondiente según el número de día. Siendo 0 → Domingo y 6 → Sábado.
-
-
-
-
-7
-Escribir una función CalcularMaximoAbsoluto que reciba dos números y retorne el máximo absoluto de ambos. Por ejemplo el máximo absoluto de los números -40 y 20 es 40.
-Hacer un programa para ingresar dos números y, utilizando CalcularMaximoAbsoluto, emita luego el número mayor absoluto de ambos.
-
-
-
-
-8
-Escribir una función que reciba el valor de un año y retorne 1 si el mismo es bisiesto y 0 si es un año no bisiesto. Recordar que son años bisiestos los divisibles por 4, excepto los divisibles por 100, pero dentro de este grupo se incluyen los divisibles por 400. Por ejemplo 1992 fue bisiesto por ser divisible por 4. El año 1900 no fue bisiesto por ser divisible por 100, aun siendo divisible por 4. Y el año 2000 fue bisiesto por ser divisible por 400, aun siendo divisible por 100.
-Hacer un programa para ingresar una lista de 10 valores de años y contar cuantos son bisiestos. Utilizar la función solicitada.
-
-
-
-
-9
-Escribir una función que reciba un número y retorne 1 si el número recibido es perfecto y 0 si no es perfecto.
-Hacer un programa para que, dada una lista de números que finaliza con cero, informe cuántos de ellos eran perfectos. Utilizar la función solicitada.
-
-
-
-
-10
-Hacer una función que reciba un código de naipe (del 1 al 40) y determine el número y el palo de la baraja española de 40 cartas (sin los 8, 9 y comodines del mazo). La función debe recibir por referencia el número de naipe y el nombre del palo (para ser completados por la función) y por valor el código de naipe.
-
-Tener en cuenta que:
-Los códigos de naipes de espada van del 1 al 10, basto del 11 al 20, copa del 21 al 30 y oro del 31 al 40. Por ejemplo, naipe con ID #10 es el 12 de espadas.
+    Tener en cuenta que:
+    Los códigos de naipes de espada van del 1 al 10, basto del 11 al 20, copa del 21 al 30 y oro del 31 al 40. Por 
+    ejemplo, naipe con ID #10 es el 12 de espadas.
 
 
 

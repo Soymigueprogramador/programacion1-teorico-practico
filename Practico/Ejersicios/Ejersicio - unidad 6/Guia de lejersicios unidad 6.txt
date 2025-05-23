@@ -1,0 +1,201 @@
+1- Hacer un programa para ingresar 10 números y guardarlos en un vector. 
+    Determinar e informar cuál es la suma de los valores del vector.
+
+2- Leer 10 números y guardarlos en un vector. 
+    Calcular el promedio y luego mostrar por pantalla los valores que son mayores al promedio.
+
+3- Leer 10 números y guardarlos en un vector. 
+    Determinar e informar cuál es el valor máximo y su posición dentro del vector.
+
+
+4- Leer 10 números y guardarlos en un vector. 
+    Determinar e informar cuál es el valor máximo absoluto del vector. 
+    Por ejemplo 20, -43 y 5, el máximo absoluto es -43.
+
+
+5
+Leer 10 números y guardarlos en un vector. Determinar e informar cuál es el menor de los impares y el mayor de los pares. Suponer que habrá al menos un número par y uno impar.
+
+
+6
+Leer 10 números y guardarlos en un vector. Determinar e informar los dos últimos números pares en el vector y sus respectivas posiciones en el mismo. Suponer que habrá al menos dos números pares.
+
+
+7
+Hacer un programa para llenar un vector de 10 elementos con el formato: 1, 0, 1, 0, 1, 0, 1, 0, 1, 0. Luego mostrar los números por pantalla. EL USUARIO NO INGRESA NINGÚN VALOR EN ESTE PROGRAMA.
+
+
+8
+Dada una lista de números compuesta por 10 subgrupos y cada grupo separado del siguiente por un cero, se pide generar un vector de 10 elementos con el máximo de cada uno de los subgrupos. Luego mostrar los elementos del vector por pantalla.
+
+
+9
+Dada una lista de 20 números enteros, cargarlos en un vector. Determinar e informar con un cartel aclaratorio si el vector está ordenado estrictamente en forma creciente. Por ejemplo: el vector [1, 3, 5, 7, 9] está ordenado estrictamente. El vector [1,  5,  3,  7] no lo está.
+
+
+10
+Dada una lista de 20 números, cargarlos en un vector. Determinar e informar la cantidad de “rupturas” que tiene el vector con respecto a un orden estrictamente creciente. Ejemplo: el vector 1,3,4,2,4,4,6,8,1,7,9 tiene 3 rupturas.
+
+
+11
+Dada una lista de 10 números, cargarlos en un vector. Luego ingresar un número e informar el primer índice donde ese número aparece en el vector. En caso de no aparecer se mostrará el valor índice igual a -1.
+
+
+12
+Dada una lista de 10 números, cargarlos en un vector. Luego ingresar un número e informar la cantidad de veces que ese número aparece en el vector.
+
+
+13
+Dada una lista de 10 números, cargarlos en un vector. Luego contar y listar la cantidad de números pares que aparecen en el vector.
+
+
+14
+Dada una lista de 10 números, cargarlos en un vector. Luego contar y listar la cantidad de números primos que aparecen en el vector.
+
+
+15
+Dada una lista de 5 números, cargarlos en un vector. Armar luego otro vector de 9 elementos donde por cada 2 elementos del vector original intercale el promedio de ellos. Por ejemplo: [2, 4, 6, 8, 10],  el vector queda: [2, 3, 4, 5, 6, 7, 8, 9, 10].
+
+
+16
+Dada una lista de 10 números, cargarlos en un vector. Luego detectar si en el vector hay algún elemento repetido y, en caso de haberlo, indicarlo con un cartel “Hay Repetidos”.
+
+
+17
+Dada una lista de 10 números, cargarlos en un vector. Luego detectar si en el vector hay elementos repetidos y generar otro vector con los elementos repetidos reemplazados por ceros.
+Ejemplo Vector 1: [8, 20, 20, -7, 15, 12, 15, -5, 11, 18]
+Ejemplo Vector 2: [8, 0, 0, -7, 0, 12, 0, -5, 11, 18]
+
+
+
+
+18
+Dada una lista de 10 números, cargarlos en un vector. Luego ingresar dos números a y b menores a 10. Determinar e informar cuál es el valor máximo en el vector considerando los elementos que están entre las posiciones a y b.
+
+
+19
+Dadas dos listas de 10 números cada una y sin números repetidos, cargarlas en dos vectores. Generar un tercer vector que contenga solamente aquellos elementos que están repetidos en ambos vectores. Mostrar en pantalla el nuevo vector. 
+Vector 1: [8, 10, -3, 5, 7]
+Vector 2: [10, -8, 5, 9, -3]
+Vector 3: [10, -3, 5]
+
+
+20
+Dadas dos listas de 5 números cada una y sin números repetidos, cargarlas en dos vectores. Generar un tercer vector que contenga los elementos de ambos vectores intercalados. Mostrar en pantalla el nuevo vector.
+Vector 1: [8, 10, -3, 5, 7]
+Vector 2: [20, -8, 10, 9, 3]
+Vector 3: [8, 20, 10, -8, -3, 10, 5, 9, 7, 3]
+
+
+21
+Hacer un programa para ingresar las encuestas de edad efectuadas a 200 personas y luego listar la cantidad de personas en cada rango de edad según la siguiente tabla.
+
+Década 0.	(Edad 1-9)	Cantidad de encuestados: 99
+Década 1.	(Edad 10-19)	Cantidad de encuestados: 99
+……………………………	
+Década 9.	(Edad 90-99)	Cantidad de encuestados: 99
+
+
+22
+Una empresa comercializa 20 tipos de artículos y por cada venta realizada genera un registro con los siguientes datos:
+Número de Artículo (1 a 20)
+Cantidad Vendida
+Puede haber varios registros para el mismo artículo y el último registro se indica cuando se ingresa un número de artículo igual a 0. Se pide determinar e informar:
+a) El número de artículo que más se vendió en total.
+b) Los números de artículos que no registraron ventas.
+c) Cuántas unidades se vendieron del número de artículo 10.
+
+
+23
+Una empresa posee un grupo de 15 vendedores para atender a sus clientes. Por cada venta realizada se genera un registro con la siguiente información:
+Número de vendedor (1 a 15)
+Importe de la venta (en $)
+Un vendedor puede realizar más de una venta. El último registro se indica con número de vendedor igual a 0.
+Se pide determinar e informar:
+a) El número de vendedor que más vendió en total (en $).
+b) Cada uno de los números de vendedores que no hayan realizado ventas.
+c) El total recaudado por la empresa por todas las ventas efectuadas por sus vendedores
+
+
+24 
+Una empresa que fabrica 200 artículos tiene la siguiente información para cada uno de las ventas del mes anterior:
+Código de Artículo (1 a 200)
+Día (1 a 31)
+Cantidad vendida
+Puede haber más de un registro para el mismo artículo. El lote finaliza con un registro con número de artículo igual a cero. Se pide determinar e informar:
+a) Informar para cada código de artículo la cantidad total vendida en el mes.
+b) Informar los días en los que no hubo ventas.
+c) Informar los códigos de los artículos cuyas ventas en cantidad son mayores al promedio.
+
+
+25
+Una agencia de viajes comercializa 20 planes de turismo, para cada uno de ellos se generó un registro con los siguientes datos:
+Número de plan (1 a 20)
+Precio al contado
+Precio con tarjeta
+Los precios son por persona, estos datos se ingresan desordenados.
+Existe un segundo lote con las ventas efectuadas durante el mes pasado en los 8 locales de atención al público.
+Por cada venta que se concretó se dispone de los siguientes datos:
+Número de local (1 a 8)
+Número de plan contratado (1 a 20)
+Cantidad de personas que viajan
+Código de pago (1= contado,2= tarjeta)
+Este lote finaliza con un registro con número de local igual a 9. A partir de esta información se pide:
+a) Informar el total recaudado por la empresa por pago al contado y por pago con tarjeta entre todos los locales.
+b) Informar cuál fue el plan que eligieron más personas en total.
+
+
+26
+Una empresa con varias sucursales, dispone de un primer lote de registros con la siguiente información:
+Número de artículo (1 a 25)
+Precio Unitario
+Este lote se encuentra desordenado.
+Dispone de un segundo lote con la información de las ventas que se efectuaron en cada una de las sucursales, con la siguiente información:
+Número de artículo (1 a 25)
+Número de sucursal (1 a 5)
+Cantidad vendida
+Puede haber más de un registro para el mismo artículo y para la misma sucursal.
+El último registro se indica con número de artículo igual a cero.
+Se pide determinar e informar:
+a) Cantidad total vendida por cada artículo.
+b) Monto total recaudado por la empresa.
+c) Número de sucursal que más artículos vendió en total. (sin discriminar por artículo)
+
+
+27
+Una empresa de transporte de carga por camión posee 20 tarifas distintas de acuerdo al destino de los envíos que deba realizar.
+Dispone de un lote de registros con la siguiente información:
+Número de Tarifa (1 a 20)
+Importe por KM.
+Este lote no viene ordenado.
+A continuación, dispone de un segundo lote de registros con la información de los envíos que se realizaron durante la semana pasada, conteniendo cada uno de ellos los siguientes campos:
+Número de Camión (1 a 100)
+Número de Tarifa
+Kilómetros recorridos
+Este lote finaliza con un registro con número de camión negativo.
+Se pide realizar un programa que determine e informe:
+a) El total recaudado por cada tarifa.
+b) Un listado como el siguiente:
+Número Camión	Total recaudado (en $)
+     999	                                   9999,99
+     999	                                    9999,99
+c) Indicar el número de camión que recorrió la menor cantidad de kilómetros, excluyendo a aquellos camiones que no realizaron ningún viaje.
+
+
+28
+Un negocio de venta de libros cuenta con los siguientes lotes de información:
+Un primer lote cuenta con los datos de los libros que este negocio vende. Cada registro contiene:
+Código de Libro (1 a 200)
+Tema (1 a 20)
+Precio
+Este lote cuenta con un total de 200 registros y se ingresa desordenado.
+Un segundo lote con los datos de las ventas del último mes. Cada registro contiene los siguientes datos:
+Código de Libro (1 a 200)
+Número de Vendedor (1 a 10)
+Día de la venta (1 a 31)
+Puede haber varios registros para el mismo código de libro y para el mismo vendedor. Este lote finaliza con un registro con código de libro igual a cero.
+Se pide determinar e informar:
+a) Indicar por separado la recaudación total para cada uno de las 31 días.
+b) Cuál es el número de vendedor con mayor recaudación total por ventas.
+c) Cuál es el número de tema más vendido.
+NO SE PUEDE UTILIZAR NINGÚN SWITCH CON MÁS DE 3 SALIDAS.

@@ -1,13 +1,20 @@
-// Funciones
+// Funciones.
 
-/** 
-Función: fragmento de código que tiene un nombre, que puede recibir parámetros (no es obligatorio), puede 
-devolver un valor (de cualquier tipo de dato conocido), y que resuelve UN problema en particular.
+/*
+    ¿ Que es una funcion ?
+    Una funcion es un bloque de codigo que se ua para resolver una cuestion espesifica.
+    Es un puqueño programa que usamos dentro de un programa mayor.
 
-void funcion1(){
-Las funciones facilitan la programación de sistemas en varios órdenes:
-* Dan un mecanismo de abstracción. Podemos pensar en bloques de acciones en lugar de pensar en cada instrucción.
-* Desarrollar cada parte del sistema independiente de la otra.
-* Facilita las modificaciones y encontrar los errores.
-* Si las funciones se piensan de manera tal que resuelvan un problema en particular, puedo volver a usarlas en otros programas.
+    ¿ Como seria la estructura del codigo con las funciones ?
+    Seguimos teniendo una funcion main (Programa principal) que se encargara de administrar las demas funciones (Programas mas pequeños). 
+
+    ¿ Cuales son las caracteristicas de una funcion ?
+    Una funcion va a tener:
+    1- Inicio
+    2- Procesamiento
+    3- Final
+    Las funciones nos devuelven algo o en caso de que usemos una funcoin boid (Vacio) no nos devolvera nada.
+
+    ¿ Cuales son las partes de una funcion ?
+    
 */
