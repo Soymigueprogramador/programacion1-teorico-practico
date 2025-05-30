@@ -92,25 +92,28 @@ Vector 3: [10, -3, 5]
     Década 9.	(Edad 90-99)	Cantidad de encuestados: 99
 
 
-22
-Una empresa comercializa 20 tipos de artículos y por cada venta realizada genera un registro con los siguientes datos:
-Número de Artículo (1 a 20)
-Cantidad Vendida
-Puede haber varios registros para el mismo artículo y el último registro se indica cuando se ingresa un número de artículo igual a 0. Se pide determinar e informar:
-a) El número de artículo que más se vendió en total.
-b) Los números de artículos que no registraron ventas.
-c) Cuántas unidades se vendieron del número de artículo 10.
+22- Un                                                                                                                                                                                                                               a empresa comercializa 20 tipos de artículos y por cada venta realizada genera un registro con los siguientes datos:
+    Número de Artículo (1 a 20)
+    Cantidad Vendida
+    Puede haber varios registros para el mismo artículo y el último registro se indica cuando se ingresa un número de artículo 
+    igual a 0. Se pide determinar e informar:
+
+    a) El número de artículo que más se vendió en total.
+    b) Los números de artículos que no registraron ventas.
+    c) Cuántas unidades se vendieron del número de artículo 10.
 
 
-23
-Una empresa posee un grupo de 15 vendedores para atender a sus clientes. Por cada venta realizada se genera un registro con la siguiente información:
-Número de vendedor (1 a 15)
-Importe de la venta (en $)
-Un vendedor puede realizar más de una venta. El último registro se indica con número de vendedor igual a 0.
-Se pide determinar e informar:
-a) El número de vendedor que más vendió en total (en $).
-b) Cada uno de los números de vendedores que no hayan realizado ventas.
-c) El total recaudado por la empresa por todas las ventas efectuadas por sus vendedores
+23- Una empresa posee un grupo de 15 vendedores para atender a sus clientes. 
+    Por cada venta realizada se genera un registro con la siguiente información:
+    
+    Número de vendedor (1 a 15)
+    Importe de la venta (en $)
+    Un vendedor puede realizar más de una venta. El último registro se indica con número de vendedor igual a 0.
+    Se pide determinar e informar:
+
+    a) El número de vendedor que más vendió en total (en $).
+    b) Cada uno de los números de vendedores que no hayan realizado ventas.
+    c) El total recaudado por la empresa por todas las ventas efectuadas por sus vendedores
 
 
 24 
